@@ -1,0 +1,163 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< com.syab:document-editing-service >------------------
+[INFO] Building document-editing-service 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.4.0:run (default-cli) > test-compile @ document-editing-service >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ document-editing-service ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ document-editing-service ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ document-editing-service ---
+[INFO] skip non existing resourceDirectory F:\code\CSC TASK\collaborative-editing-system\document-editing-service\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ document-editing-service ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:3.4.0:run (default-cli) < test-compile @ document-editing-service <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.4.0:run (default-cli) @ document-editing-service ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.0)
+
+2025-11-25T12:35:19.936+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] c.s.d.DocumentEditingApplication         : Starting DocumentEditingApplication using Java 17.0.16 with PID 17140 (F:\code\CSC TASK\collaborative-editing-system\document-editing-service\target\classes started by Syed Syab in F:\code\CSC TASK\collaborative-editing-system\document-editing-service)
+2025-11-25T12:35:19.943+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] c.s.d.DocumentEditingApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-11-25T12:35:19.993+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-25T12:35:19.994+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-25T12:35:21.628+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-25T12:35:21.710+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 3 JPA repository interfaces.
+2025-11-25T12:35:22.792+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2025-11-25T12:35:22.808+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-25T12:35:22.809+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-11-25T12:35:22.876+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-25T12:35:22.876+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2882 ms
+2025-11-25T12:35:23.025+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-25T12:35:23.326+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3a9f585a
+2025-11-25T12:35:23.326+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-25T12:35:23.344+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/document_editing'
+2025-11-25T12:35:23.564+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-25T12:35:23.629+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-11-25T12:35:23.669+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-25T12:35:24.065+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-25T12:35:24.144+05:00  WARN 17140 --- [document-editing-service] [  restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-25T12:35:24.159+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-25T12:35:26.169+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-25T12:35:26.266+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-25T12:35:27.115+05:00  WARN 17140 --- [document-editing-service] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-25T12:35:28.020+05:00  WARN 17140 --- [document-editing-service] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-11-25T12:35:28.034+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-11-25T12:35:28.269+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2025-11-25T12:35:28.304+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] c.s.d.DocumentEditingApplication         : Started DocumentEditingApplication in 8.907 seconds (process running for 9.593)
+2025-11-25T12:35:46.174+05:00  INFO 17140 --- [document-editing-service] [nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-25T12:35:46.174+05:00  INFO 17140 --- [document-editing-service] [nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-25T12:35:46.174+05:00  INFO 17140 --- [document-editing-service] [nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-11-25T12:35:46.289+05:00 DEBUG 17140 --- [document-editing-service] [nio-8083-exec-1] c.s.d.service.DocumentService            : Inviting user by email - calling URL: http://localhost:8082/api/users/by-email?email=ahmad%40gmail.com
+2025-11-25T12:35:46.656+05:00 DEBUG 17140 --- [document-editing-service] [nio-8083-exec-1] c.s.d.service.DocumentService            : Invite lookup returned NotFound: status=404 NOT_FOUND, body=
+2025-11-25T12:35:46.674+05:00  WARN 17140 --- [document-editing-service] [nio-8083-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.IllegalArgumentException: User not found (by email)]
+2025-11-25T12:41:16.124+05:00 DEBUG 17140 --- [document-editing-service] [nio-8083-exec-4] c.s.d.service.DocumentService            : Inviting user by email - calling URL: http://localhost:8082/api/users/by-email?email=ahmad%40gmail.com
+2025-11-25T12:41:16.141+05:00 DEBUG 17140 --- [document-editing-service] [nio-8083-exec-4] c.s.d.service.DocumentService            : Invite lookup returned NotFound: status=404 NOT_FOUND, body=
+2025-11-25T12:41:16.144+05:00  WARN 17140 --- [document-editing-service] [nio-8083-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.IllegalArgumentException: User not found (by email)]
+2025-11-25T12:42:59.496+05:00  INFO 17140 --- [document-editing-service] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-25T12:42:59.502+05:00  INFO 17140 --- [document-editing-service] [       Thread-1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-25T12:42:59.765+05:00  INFO 17140 --- [document-editing-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-25T12:42:59.770+05:00  INFO 17140 --- [document-editing-service] [       Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-25T12:42:59.773+05:00  INFO 17140 --- [document-editing-service] [       Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-25T12:42:59.782+05:00  INFO 17140 --- [document-editing-service] [       Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.0)
+
+2025-11-25T12:42:59.889+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] c.s.d.DocumentEditingApplication         : Starting DocumentEditingApplication using Java 17.0.16 with PID 17140 (F:\code\CSC TASK\collaborative-editing-system\document-editing-service\target\classes started by Syed Syab in F:\code\CSC TASK\collaborative-editing-system\document-editing-service)
+2025-11-25T12:42:59.889+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] c.s.d.DocumentEditingApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-11-25T12:43:00.621+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-25T12:43:00.648+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 3 JPA repository interfaces.
+2025-11-25T12:43:00.914+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2025-11-25T12:43:00.915+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-25T12:43:00.915+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-11-25T12:43:00.945+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-25T12:43:00.945+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1051 ms
+2025-11-25T12:43:01.056+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-11-25T12:43:01.120+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@44e798c7
+2025-11-25T12:43:01.120+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-11-25T12:43:01.120+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/document_editing'
+2025-11-25T12:43:01.246+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-25T12:43:01.251+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-25T12:43:01.309+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-25T12:43:01.321+05:00  WARN 17140 --- [document-editing-service] [  restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-25T12:43:01.321+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-25T12:43:01.420+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-25T12:43:01.443+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-25T12:43:01.689+05:00  WARN 17140 --- [document-editing-service] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-25T12:43:02.195+05:00  WARN 17140 --- [document-editing-service] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-11-25T12:43:02.203+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-11-25T12:43:02.303+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2025-11-25T12:43:02.316+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] c.s.d.DocumentEditingApplication         : Started DocumentEditingApplication in 2.462 seconds (process running for 463.605)
+2025-11-25T12:43:02.320+05:00  INFO 17140 --- [document-editing-service] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-11-25T12:45:59.458+05:00  INFO 17140 --- [document-editing-service] [nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-25T12:45:59.458+05:00  INFO 17140 --- [document-editing-service] [nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-25T12:45:59.460+05:00  INFO 17140 --- [document-editing-service] [nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-11-25T12:46:24.343+05:00  INFO 17140 --- [document-editing-service] [nio-8083-exec-7] c.s.d.ws.DocumentWebSocketHandler        : WS connect request: sessionId=a4bf4072-af7b-f80c-7932-6f57ddd082d4, uri=ws://localhost:8083/ws/documents?documentId=3&userId=1, documentId=3, userId=1
+2025-11-25T12:46:24.345+05:00 DEBUG 17140 --- [document-editing-service] [nio-8083-exec-7] c.s.d.ws.DocumentWebSocketHandler        : WebSocket connected: docId=3 sessionId=a4bf4072-af7b-f80c-7932-6f57ddd082d4
+2025-11-25T12:46:24.364+05:00  INFO 17140 --- [document-editing-service] [nio-8083-exec-1] c.s.d.ws.DocumentWebSocketHandler        : WS connect request: sessionId=b9630e53-0d1f-0328-199f-b98cd06025d0, uri=ws://localhost:8083/ws/documents?documentId=3&userId=1, documentId=3, userId=1
+2025-11-25T12:46:24.364+05:00 DEBUG 17140 --- [document-editing-service] [nio-8083-exec-1] c.s.d.ws.DocumentWebSocketHandler        : WebSocket connected: docId=3 sessionId=b9630e53-0d1f-0328-199f-b98cd06025d0
+2025-11-25T12:46:24.366+05:00 DEBUG 17140 --- [document-editing-service] [io-8083-exec-10] c.s.d.ws.DocumentWebSocketHandler        : WebSocket disconnected: docId=3 sessionId=a4bf4072-af7b-f80c-7932-6f57ddd082d4
+2025-11-25T12:47:51.181+05:00 DEBUG 17140 --- [document-editing-service] [nio-8083-exec-9] c.s.d.service.DocumentService            : Inviting user by email - calling URL: http://localhost:8081/api/users/by-email?email=syab%40gmail.com
+2025-11-25T12:47:51.211+05:00 DEBUG 17140 --- [document-editing-service] [nio-8083-exec-9] c.s.d.service.DocumentService            : Invite lookup returned NotFound: status=404 NOT_FOUND, body=
+2025-11-25T12:47:51.213+05:00  WARN 17140 --- [document-editing-service] [nio-8083-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.IllegalArgumentException: User not found (by email)]
+2025-11-25T12:47:56.512+05:00 DEBUG 17140 --- [document-editing-service] [nio-8083-exec-7] c.s.d.ws.DocumentWebSocketHandler        : WebSocket disconnected: docId=3 sessionId=b9630e53-0d1f-0328-199f-b98cd06025d0
+2025-11-25T12:47:57.474+05:00  INFO 17140 --- [document-editing-service] [nio-8083-exec-3] c.s.d.ws.DocumentWebSocketHandler        : WS connect request: sessionId=efc43f34-39e1-422c-6a69-6577ada6b993, uri=ws://localhost:8083/ws/documents?documentId=3&userId=1, documentId=3, userId=1
+2025-11-25T12:47:57.474+05:00 DEBUG 17140 --- [document-editing-service] [nio-8083-exec-3] c.s.d.ws.DocumentWebSocketHandler        : WebSocket connected: docId=3 sessionId=efc43f34-39e1-422c-6a69-6577ada6b993
+2025-11-25T12:47:57.596+05:00 DEBUG 17140 --- [document-editing-service] [nio-8083-exec-6] c.s.d.ws.DocumentWebSocketHandler        : WebSocket disconnected: docId=3 sessionId=efc43f34-39e1-422c-6a69-6577ada6b993
+2025-11-25T12:47:57.602+05:00  INFO 17140 --- [document-editing-service] [nio-8083-exec-6] c.s.d.ws.DocumentWebSocketHandler        : WS connect request: sessionId=fdbe87a6-a734-cfe5-e03e-43769db37f53, uri=ws://localhost:8083/ws/documents?documentId=3&userId=1, documentId=3, userId=1
+2025-11-25T12:47:57.603+05:00 DEBUG 17140 --- [document-editing-service] [nio-8083-exec-6] c.s.d.ws.DocumentWebSocketHandler        : WebSocket connected: docId=3 sessionId=fdbe87a6-a734-cfe5-e03e-43769db37f53
+2025-11-25T12:48:16.360+05:00 DEBUG 17140 --- [document-editing-service] [nio-8083-exec-9] c.s.d.service.DocumentService            : Inviting user by email - calling URL: http://localhost:8081/api/users/by-email?email=syab%40gmail.com
+2025-11-25T12:48:16.387+05:00 DEBUG 17140 --- [document-editing-service] [nio-8083-exec-9] c.s.d.service.DocumentService            : Invite lookup returned NotFound: status=404 NOT_FOUND, body=
+2025-11-25T12:48:16.389+05:00  WARN 17140 --- [document-editing-service] [nio-8083-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.IllegalArgumentException: User not found (by email)]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  14:52 min
+[INFO] Finished at: 2025-11-25T12:50:07+05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.4.0:run (default-cli) on project document-editing-service: Process terminated with exit code: 1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
